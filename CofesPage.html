@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design viewport settings -->
+    <title>Coffee Shops</title> <!-- Title of the webpage -->
+    <style>
+    /* Styling for the body of the document */
+    body {
+    font-family: Arial, sans-serif; /* Set font to Arial or sans-serif */
+    margin: 20px 300px; /* Margin around the body */
+    padding: 115px; /* Padding inside the body */
+    background-color: LightGray; /* Background color for the body */
+    }
+
+    /* Styling for main headings */
+    h1 {
+    text-align: center; /* Center the heading text */
+    color: DarkRed; /* Set the color of the heading */
+    }
+
+    /* Styling for the coffee list */
+    .coffee-list {
+    list-style-type: none; /* Remove default list styling (bullets) */
+    padding: 0; /* Remove padding from the list */
+    }
+
+    /* Styling for each coffee item */
+    .coffee-item {
+    background: #fff; /* White background for each item */
+    margin: 10px 0; /* Margin above and below each item */
+    padding: 15px; /* Internal padding for each item */
+    border-radius: 5px; /* Rounded corners for each item */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    }
+
+    /* Styling for the coffee item titles */
+    .coffee-item h2 {
+    margin: 5px; /* Margin around the heading */
+    font-size: 20px; /* Font size for the item title */
+    color: #333; /* Dark gray color for the title */
+    }
+
+    /* Styling for the rating text */
+    .rating {
+    font-size: 16px; /* Font size for the rating text */
+    color: #666; /* Gray color for the rating */
+    }
+
+    /* Responsive styles for screens smaller than 600px */
+    @media (max-width: 600px) {
+    body {
+    padding: 10px; /* Reduce padding for smaller screens */
+    }
+    .coffee-item h2 {
+    font-size: 18px; /* Smaller font size for item titles */
+    }
+    .rating {
+    font-size: 14px; /* Smaller font size for ratings */
+    }
+    }
+    </style>
+    </head>
+    <body>
+    <h1>Coffee Shops</h1> <!-- Main heading for the page -->
+    <ul class="coffee-list"> <!-- Unordered list for coffee shops -->
+    <li class="coffee-item"> <!-- List item for a coffee shop -->
+    <h2>Hezam Albun</h2> <!-- Title of the coffee shop -->
+    <div class="rating">Rate: 4.4</div> <!-- Rating for the coffee shop -->
+    <a href="https://maps.app.goo.gl/gLYrTWKC6jxQ7xwT9" target="_blank"> <!-- Link to the location -->
+    <img src="locationPic.jpg" alt="Location" width="55" height="50"> <!-- Image for the location -->
+    </a>
+    </li>
+
+    <li class="coffee-item">
+    <h2>Mahal Cafe</h2>
+    <div class="rating">Rate: 4.7</div>
+    <a href="https://maps.app.goo.gl/1riVuEDXEozrRjQe9" target="_blank">
+    <img src="locationPic.jpg" alt="Location" width="55" height="50">
+    </a>
+    </li>
+
+    <li class="coffee-item">
+    <h2>La Piuma Coffee</h2>
+    <div class="rating">Rate: 4.3</div>
+    <a href="https://maps.app.goo.gl/bxASS2Ag27pZwJvF6" target="_blank">
+    <img src="locationPic.jpg" alt="Location" width="55" height="50">
+    </a>
+    </li>
+
+    <li class="coffee-item">
+    <h2>Ran Cafe</h2>
+    <div class="rating">Rate: 4.7</div>
+    <a href="https://maps.app.goo.gl/Za6QHvBHYcP2PuJm6" target="_blank">
+    <img src="locationPic.jpg" alt="Location" width="55" height="50">
+    </a>
+    </li>
+    <li class="coffee-item">
+    <h2>Space</h2>
+    <div class="rating">Rate: 4.8</div>
+    <a href="https://maps.app.goo.gl/hhwTrYcqv2zGaVf59" target="_blank">
+    <img src="locationPic.jpg" alt="Location" width="55" height="50">
+    </a>
+    </li>
+    </ul>
+ </body>
+</html>

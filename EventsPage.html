@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design settings for mobile -->
+    <title>Events</title> <!-- Title of the webpage -->
+    <style>
+    /* Basic styling for the body of the document */
+    body {
+    font-family: Arial, sans-serif; /* Set the font to Arial or sans-serif */
+    margin: 20px 300px; /* Margin around the body */
+    padding: 115px; /* Padding inside the body */
+    background-color: LightGray; /* Background color for the body */
+    }
+
+    /* Styling for the main heading */
+    h1 {
+    text-align: center; /* Center the heading text */
+    color: DarkRed; /* Set the color of the heading */
+    }
+
+    /* Styling for the event list */
+    .event-list {
+    list-style-type: none; /* Remove default list styling (bullets) */
+    padding: 0; /* Remove padding from the list */
+    }
+
+    /* Styling for each event item */
+    .event-item {
+    background: #fff;; /* White background for each item */
+    margin: 10px 0; /* Margin above and below each item */
+    padding: 15px; /* Internal padding for each item */
+    border-radius: 5px; /* Rounded corners for each item */
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+            }
+
+        /* Styling for the event item titles */
+        .event-item h2 {
+            margin: 0; /* Remove margin for the heading */
+            font-size: 20px; /* Font size for the item title */
+            color: #333; /* Dark gray color for the title */
+        }
+
+        /* Styling for the rating text */
+        .rating {
+            font-size: 16px; /* Font size for the rating */
+            color: #666; /* Gray color for the rating text */
+        }
+
+        /* Responsive styles for screens smaller than 600px */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px; /* Reduce padding for smaller screens */
+            }
+            .event-item h2 {
+                font-size: 18px; /* Smaller font size for item titles */
+            }
+            .rating {
+                font-size: 14px; /* Smaller font size for ratings */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Events</h1> <!-- Main heading for the page -->
+    <ul class="event-list"> <!-- Unordered list for events -->
+        <li class="event-item"> <!-- List item for a specific event -->
+            <h2>The Blue Space</h2> <!-- Title of the event -->
+            <div class="rating">Rate: 4.7</div> <!-- Rating for the event -->
+            <a href="https://maps.app.goo.gl/FzrZgYDwXnHG7Xxy7" target="_blank"> <!-- Link to the location -->
+                <img src="locationPic.jpg" alt="Location" width="55" height="50"> <!-- Image for the location -->
+            </a>
+        </li>
+
+        <li class="event-item">
+            <h2>Happy Top</h2>
+            <div class="rating">Rate: 4.6</div>
+            <a href="https://maps.app.goo.gl/8hDMuQHiuHoBAedm6" target="_blank">
+                <img src="locationPic.jpg" alt="Location" width="55" height="50">
+            </a>
+        </li>
+
+        <li class="event-item">
+            <h2>Reef Julass</h2>
+            <div class="rating">Rate: 4.5</div>
+            <a href="https://maps.app.goo.gl/YPChpc9HTbTGrjtJA" target="_blank">
+                <img src="locationPic.jpg" alt="Location" width="55" height="50">
+            </a>
+        </li>
+
+        <li class="event-item">
+            <h2>Oia Bowling</h2>
+            <div class="rating">Rate: 4.3</div>
+            <a href="https://maps.app.goo.gl/T2PcrbwaL5Jy1Mp8A" target="_blank">
+                <img src="locationPic.jpg" alt="Location" width="55" height="50">
+            </a>
+        </li>
+
+        <li class="event-item">
+                <h2>Athal</h2>
+            <div class="rating">Rate: 4.3</div>
+            <a href="https://maps.app.goo.gl/PRLrBMPEnb8Y69rP8" target="_blank">
+                <img src="locationPic.jpg" alt="Location" width="55" height="50">
+            </a>
+        </li>
+    </ul>
+</body>
+</html>

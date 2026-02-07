@@ -1,0 +1,91 @@
+/*handling the body font style and background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+/*handling the header style*/
+header {
+    background-color: LightGray;
+    color: DarkRed;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/*handling the login link style */
+nav{
+    background-color: #333;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #575757;
+}
+
+/*handling the first section element style */
+.Fsection {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #eee;
+}
+.Fsection h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.message {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+
+ }
+.places-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/*handling the style for each image and their heading and pararaph */
+.place-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+}
+.place-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.place-card h3 {
+    margin: 10px 0 5px;
+}
+.place-card p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/*handling the style for the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}

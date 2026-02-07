@@ -1,0 +1,49 @@
+/*handling the body font style and background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 80vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: LightGray;
+}
+
+/*handling the div element display style */
+.content-box{
+    border-radius: 8px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;/
+}
+/*handling the form display style */
+.Fform label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.Fform input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/*handling the login or Register button style */
+button {
+    background-color: DarkRed;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 105%;
+  }
+
+  button:hover {
+    opacity: 0.8 }

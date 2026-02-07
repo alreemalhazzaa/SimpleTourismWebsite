@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Character encoding for the document-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> <!-- Responsive design settings for mobile -->
+    <title>All Lists Page</title> <!-- Title of the webpage -->
+    <style>
+    /* Basic styling for the body of the document */
+    body {
+    font-family: Arial, sans-serif; /* Set the font to Arialor sans-serif*/
+    margin: 20px 300px; /* Margin aroundthe body */
+    padding: 115px; /*Padding inside the body */
+    background-color:LightGray; /* Background colorfor the body*/
+    }
+    /*Styling for the main heading */
+    h1 {
+    text-align: center; /* Center the heading text*/
+    color:DarkRed; /* Set the colorof the heading */
+    }
+    /*Styling for the list */
+    .item-list {
+    list-style-type: none; /* Remove default list styling (bullets) */
+    padding: 0; /* Remove padding from the list*/
+    }
+    /*Styling for each list item */
+    .item {
+    background: #fff; /* White background for each item */
+    margin: 10px 0; /* Margin above and below each item */
+    padding: 15px; /* Internal padding foreach item */
+    border-radius: 5px; /* Roundedcorners for each item */
+    box-shadow: 0 2px 5px rgba(0,0, 0, 0.1); /* Subtleshadow effect */
+    }
+    /*Styling for the itemtitles */
+    .item a {
+    margin: 0; /*Remove margin for the heading*/
+    font-size: 20px; /* Font size for the item title*/
+    color:#333;/* Dark gray color for the title */
+    }
+    /*Responsive styles for screens smallerthan 600px */
+    @media(max-width:600px) {
+    body{
+    padding: 10px; /* Reduce padding for smaller screens*/
+    }
+    .item h2 {
+    font-size:18px;/* Smaller font size for item titles */
+    }
+    }
+    </style>
+    </head>
+    <body>
+    <h1>Choose a List</h1> <!--Main heading for the page -->
+    <ul class="item-list"> <!-- Unordered list for items -->
+    <li class="item"> <!-- List item forCoffee Shops -->
+    <a href="#" id="CoffeeShops-link">Coffee Shops</a><!-- link to the list -->
+    </li>
+    <li class="item"> <!-- List item forEvents -->
+    <a href="#" id="Events-link">Events</a><!-- link to the list -->
+    </li>
+    <li class="item"> <!-- List item forRestaurants-->
+    <a href="#" id="Restaurants-link">Restaurants</a> <!--link to the list-->
+    </li>
+    </ul> 
+    <!--JavaScript to handle navigation -->
+    <script>
+        //to the cofes page  
+        document.getElementById('CoffeeShops-link').addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent default link behavior
+        window.location.href = 'CofesPage.html'; // Redirect to the cofes page
+        });
+        //to the Events page 
+        document.getElementById('Events-link').addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent default link behavior
+        window.location.href = 'EventsPage.html'; // Redirect to the Events page
+        });
+        //to the Restaurant page 
+        document.getElementById('Restaurants-link').addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent default link behavior
+        window.location.href = 'RestaurantPage.html'; // Redirect to the Restaurants page
+        });
+    </script>                                         
+ </body>
+</html>
