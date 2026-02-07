@@ -13,23 +13,6 @@ A comprehensive web application designed to help users discover, filter, and res
     Location Integration: Detailed lists for Cafes and Events featuring ratings and direct links to Google Maps locations.
 
     Reservation System: A functional booking platform where logged-in users can schedule visits and manage (cancel) their reservations.
-
-## Repository Structure
-
-To ensure the project runs correctly, organize your files as follows:
-File Name	Purpose
-index.php	The main landing page with a dynamic welcome message for logged-in users.
-login_page.php	Handles user authentication and session starts.
-Register_page.php	Processes new user account creation.
-AllListsPage.html	The main menu for choosing between Cafes, Events, and Restaurants.
-CofesPage.html	Lists local coffee shops with ratings and locations.
-EventsPage.html	Lists local event venues and entertainment spots.
-RestaurantPage.html	Features a filterable list of dining options and a link to reservations.
-ReservationPage.html	The frontend form for submitting booking details.
-ReservationPage.php	The backend logic for inserting, displaying, and deleting reservations.
-HomeStyle.css	Main stylesheet for the home and category pages.
-loginStyle.css	Specialized styling for authentication and reservation forms.
-locationPic.jpg	Icon used for location links across the site.
 ## Technical Stack
 
     Frontend: HTML5, CSS3 (including Media Queries for mobile responsiveness), and JavaScript (for navigation and filtering).
